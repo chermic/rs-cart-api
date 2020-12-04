@@ -1,0 +1,6 @@
+# folder with compiled .ts files
+dist
+# dependencies installs inside docker
+node_modules
+# folder with elasticbeanstalk configs not need for copying into docker image
+.elasticbeanstalk
