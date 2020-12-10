@@ -1,0 +1,26 @@
+# compiled output
+/dist
+/node_modules
+
+# git directory
+/.git
+
+# folder with elasticbeanstalk configs not need for copying into docker image
+.elasticbeanstalk
+
+# Tests
+/coverage
+/.nyc_output
+/test
+/**/*.(spec|test).(j|t)s
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
